@@ -49,6 +49,7 @@ default['haproxy']['frontend_ssl_max_connections'] = 2000
 
 default['haproxy']['install_method'] = 'package'
 default['haproxy']['conf_dir'] = '/etc/haproxy'
+default['haproxy']['conf_cookbook'] = nil
 
 default['haproxy']['source']['version'] = '1.4.22'
 default['haproxy']['source']['url'] = 'http://haproxy.1wt.eu/download/1.4/src/haproxy-1.4.22.tar.gz'
